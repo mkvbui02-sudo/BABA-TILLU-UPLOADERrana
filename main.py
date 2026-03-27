@@ -35,7 +35,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"]))
 async def start(bot: Client, m: Message):
-    await m.reply_text(f"<b>𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫  👋! {m.from_user.mention} \n\n ➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️ **𝐓𝐗𝐓​** \n\n ​➠ 𝐂𝐚𝐧 𝐄𝐱𝐭𝐫𝐚𝐜𝐭 𝐕𝐢𝐝𝐞𝐨𝐬 & 𝐏𝐝𝐟 𝐅𝐫𝐨𝐦 𝐘𝐨𝐮𝐫 𝐓𝐞𝐱𝐭 𝐅𝐢𝐥𝐞 𝐚𝐧𝐝 𝐔𝐩𝐥𝐨𝐚𝐝 𝐭𝐨 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 \n\n ➠ 𝐔𝐬𝐞 /sameerji 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐨𝐦 𝐓𝐗𝐓 𝐅𝐢𝐥e..\n\n ➠ 𝐔𝐬𝐞 /stop 𝐓𝐨 𝐬𝐭𝐨𝐩 𝐀𝐧𝐲 𝐎𝐧𝐠𝐨𝐢𝐧𝐠 𝐓𝐚𝐬𝐤 \n\n ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲:- @CHAT_WITH_SAMEER_BOT </b>")
+    await m.reply_text(f"<b>𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫  👋! {m.from_user.mention} \n\n ➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️ **𝐓𝐗𝐓​** \n\n ​➠ 𝐂𝐚𝐧 𝐄𝐱𝐭𝐫𝐚𝐜𝐭 𝐕𝐢𝐝𝐞𝐨𝐬 & 𝐏𝐝𝐟 𝐅𝐫𝐨𝐦 𝐘𝐨𝐮𝐫 𝐓𝐞𝐱𝐭 𝐅𝐢𝐥𝐞 𝐚𝐧𝐝 𝐔𝐩𝐥𝐨𝐚𝐝 𝐭𝐨 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 \n\n ➠ 𝐔𝐬𝐞 /Ankit1 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐨𝐦 𝐓𝐗𝐓 𝐅𝐢𝐥e..\n\n ➠ 𝐔𝐬𝐞 /stop 𝐓𝐨 𝐬𝐭𝐨𝐩 𝐀𝐧𝐲 𝐎𝐧𝐠𝐨𝐢𝐧𝐠 𝐓𝐚𝐬𝐤 \n\n ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲:- —‌‌‌𝐀ɴᴋɪᴛ ᎫᎥᎥㅤ⸙ </b>")
 
 @bot.on_message(filters.command("stop"))
 async def restart_handler(_, m):
@@ -44,7 +44,7 @@ async def restart_handler(_, m):
 
 
 
-@bot.on_message(filters.command(["sameerji"]))
+@bot.on_message(filters.command(["Ankit1"]))
 async def upload(bot: Client, m: Message):
     editable = await m.reply_text('🗣𝗦𝗘𝗡𝗗 𝗠𝗘 𝗧𝗫𝗧 𝗙𝗜𝗟𝗘 ⚡️')
     input: Message = await bot.listen(editable.chat.id)
@@ -159,7 +159,7 @@ async def upload(bot: Client, m: Message):
              #url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={raw_text4}"
             #url = f"https://madxapi-d0cbf6ac738c.herokuapp.com/{id}/master.m3u8?token={raw_text4}"
             elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
-             url = f"https://pwplayer-38c1ae95b681.herokuapp.com/pw?url={url}&token={pw_token}"
+             url = f"https://anonymouspwplayer-907e62cf4891.herokuapp.com/pw?url={url}&token={pw_token}"
                 
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
             name = f'{str(count).zfill(3)}) {name1[:60]}'
@@ -176,8 +176,8 @@ async def upload(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**[📽️] Vid_ID:** ┈ ⋞ 〈 {str(count).zfill(3)} 〉 ⋟ ┈.** \n\n🦇 𝗟𝗘𝗖 𝗡𝗔𝗠𝗘 ➥{𝗻𝗮𝗺𝗲𝟭} @SAMEER_OFFICAL_092.mkv \n\n**🦈 ​𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄 ** ➺ **{raw_text0}**\n\n📥 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➺ \n\n༶•┈┈⛧┈♛┈⛧┈┈•༶**\n\n{MR}\n\n**༶•┈┈⛧┈♛┈⛧┈┈•༶\n\n•┈••✦ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 ✦••┈•'
-                cc1 = f'**[📁] Pdf_ID:** ┈ ⋞ 〈 {str(count).zfill(3)} 〉 ⋟ ┈. \n\n🍷 𝗣𝗗𝗙 𝗡𝗔𝗠𝗘 ➥{𝗻𝗮𝗺𝗲𝟭} @SAMEER_OFFICAL_092.pdf  \n\n**🦈 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄 ➺ **{raw_text0}**\n\n📥 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➺ \n\n༶•┈┈⛧┈♛┈⛧┈┈•༶**\n\n{MR}\n\n**༶•┈┈⛧┈♛┈⛧┈┈•༶\n\n•┈••✦ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 ✦••┈•'
+                cc = f'**[📽️] Vid_ID:** ┈ ⋞ 〈 {str(count).zfill(3)} 〉 ⋟ ┈.** \n\n🦇 𝗟𝗘𝗖 𝗡𝗔𝗠𝗘 ➥{𝗻𝗮𝗺𝗲𝟭} @SAMEER_OFFICAL_092.mkv \n\n**🦈 ​𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄 ** ➺ **{raw_text0}**\n\n📥 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➺ \n\n༶•┈┈⛧┈♛┈⛧┈┈•༶**\n\n{MR}\n\n**༶•┈┈⛧┈♛┈⛧┈┈•༶\n\n•┈••✦ —‌‌‌𝐀ɴᴋɪᴛ ᎫᎥᎥㅤ⸙ ✦••┈•'
+                cc1 = f'**[📁] Pdf_ID:** ┈ ⋞ 〈 {str(count).zfill(3)} 〉 ⋟ ┈. \n\n🍷 𝗣𝗗𝗙 𝗡𝗔𝗠𝗘 ➥{𝗻𝗮𝗺𝗲𝟭} @SAMEER_OFFICAL_092.pdf  \n\n**🦈 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄 ➺ **{raw_text0}**\n\n📥 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➺ \n\n༶•┈┈⛧┈♛┈⛧┈┈•༶**\n\n{MR}\n\n**༶•┈┈⛧┈♛┈⛧┈┈•༶\n\n•┈••✦ —‌‌‌𝐀ɴᴋɪᴛ ᎫᎥᎥㅤ⸙ ✦••┈•'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
